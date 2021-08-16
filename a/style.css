@@ -1,119 +1,4 @@
-* {
-    font-family: "Libre Franklin", sans-serif;
-    padding: 0;
-    margin: 0;
-}
 
-h1,
-h2 {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-}
-
-main {
-    color: #333333;
-}
-
-/* header */
-header {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(./image/bg-header.png);
-    width: 373px;
-    height: 275px;
-    color: white;
-    text-align: center;
-}
-
-.nav-bar {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 34px;
-    top: 39px;
-    font-family: Segoe MDL2 Assets;
-    font-size: 24px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-.nav-bar-items {
-    display: none;
-}
-
-.content {
-    position: absolute;
-    width: 373px;
-    height: 275px;
-    background: rgba(198, 108, 73, 0.4);
-}
-
-header p,
-h2 {
-    position: relative;
-text-align: center;
-    margin: 0;
-}
-
-header h2 {
-    font-weight: bold;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 29px;
-    padding-top: 36px;
-    padding-bottom: 50px;
-}
-
-.header-p1 {
-    padding-bottom: 13px;
-    font-size: 20px;
-    line-height: 24px;
-    font-style: normal;
-    font-weight: normal;
-}
-
-.header-p2 {
-    padding-bottom: 41px;
-    font-size: 13px;
-    line-height: 16px;
-}
-
-.header-p3 {
-    padding-bottom: 50px;
-    padding-left: 1px;
-    text-decoration: underline;
-    font-size: 13px;
-    line-height: 16px;
-}
-
-/* about */
-
-.about {
-   width: 375px;
-    height: 335px;
-    background: #FFFFFF*/
-}
-
-.about h2 {
-    text-align: center;
-    padding-top: 25px;
-    color: #333333;
-}
-
-.about-text {
-    padding: 19px 29px 8px 34px;
-    width: 312px;
-    height: 212px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    word-spacing: 3px;
-    line-height: 15px;
-    text-align: justify;
-    color: #333333;
-
-}
 
 /* skills */
 .skills {
@@ -145,7 +30,7 @@ background-color: #fffaf2;
     font-weight: 500;
     font-size: 12px;
     color: #333333;
-} 
+}
 /*UI / UX Engineer, Front-end Developer выступает за рамки прогресбара*/
 .right li:nth-child(odd) {
     margin-bottom: 13px;
