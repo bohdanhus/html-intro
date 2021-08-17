@@ -15,6 +15,7 @@ h2 {
 }
 
 body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
     color: #333333;
 }
 
@@ -131,14 +132,24 @@ header h2 {
         display: none;
     }
 
+    .nav-bar {
+        padding-left: 132px;
+        padding-top: 0;
+        padding-right: 166px;
+    }
+
+    .nav-bar-item{
+        margin-right: 60px;
+    }
+
     .nav-bar-items {
         display: flex;
         justify-content: space-between;
     }
     .navigation {
         display: flex;
-        justify-content: space-between;
-        padding
+        margin-top: 38px;
+        margin-left: 464px;
     }
 
     header p,
@@ -155,13 +166,10 @@ header h2 {
         font-weight: bold;
         font-size: 24px;
         line-height: 29px;
-        padding-top: 93px;
-        padding-bottom: 145px;
-        padding-left: 165px;
     }
     .nav-bar-items p {
+        font-weight: 400;
         font-style: normal;
-        font-weight: bold;
         font-size: 18px;
         line-height: 22px;
     }
@@ -170,16 +178,14 @@ header h2 {
     }
 
     .header-p1 {
-        display: none;
         font-size: 64px;
         line-height: 78px;
-        padding-top: 145px;
+        padding-top: 267px;
         padding-left: 165px;
         padding-bottom: 26px;
     }
 
     .header-p2 {
-        display: none;
         font-size: 24px;
         line-height: 29px;
         padding-left: 165px;
@@ -187,7 +193,6 @@ header h2 {
     }
 
     .header-p3 {
-        display: none;
         font-size: 18px;
         line-height: 22px;
         text-decoration: underline;

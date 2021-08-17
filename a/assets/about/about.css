@@ -48,14 +48,14 @@
         }
 
         .about-text {
-            padding: 76px 115px 166px 167px;
+            margin: 76px 115px 166px 167px;
+            padding: 0 0 0 0;
             width: 1107px;
             height: 231px;
             font-size: 18px;
             word-spacing: 3px;
             line-height: 167%;
         }
-
     }
 
 }
