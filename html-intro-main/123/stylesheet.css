@@ -1,0 +1,74 @@
+/* Include the padding and border in an element's total width and height */
+/** {*/
+/*    box-sizing: border-box;*/
+/*    position: center;*/
+/*    width: 100%*/
+/*}*/
+
+
+/*.out:hover {*/
+/*    background: #ddd;*/
+/*}*/
+
+
+/*!* Style the close button *!*/
+/*.close {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    padding: 12px 16px 12px 16px;*/
+/*}*/
+
+/*.close:hover {*/
+/*    background-color: #ff7160;*/
+/*    color: white;*/
+/*}*/
+
+/*!* Style the header *!*/
+/*.container {*/
+/*    background-color: #82c482;*/
+/*    font-family: monospace;*/
+/*    padding: 30px 40px;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*}*/
+
+/*!* Clear floats after the header *!*/
+/*.container:after {*/
+/*    content: "";*/
+/*    display: table;*/
+/*    clear: both;*/
+/*}*/
+
+/*!* Style the input *!*/
+/*input {*/
+/*    margin: 4px;*/
+/*    border: none;*/
+/*    border-radius: 0;*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    float: left;*/
+/*    font-size: 16px;*/
+/*    gap: 5px;*/
+/*}*/
+
+
+/*!* Style the "Add" button *!*/
+/*.addButton {*/
+/*    margin-left: 4px;*/
+/*    padding: 4px;*/
+/*    width: 25%;*/
+/*    background: #d9d9d9;*/
+/*    color: #555;*/
+/*    float: right;*/
+/*    text-align: center;*/
+/*    font-size: 18px;*/
+/*    cursor: pointer;*/
+/*    transition: 0.3s;*/
+/*    border-radius: 0;*/
+/*}*/
+
+/*.addButton:hover {*/
+/*    background-color: #2159a4;*/
+/*    color: white;*/
+}
